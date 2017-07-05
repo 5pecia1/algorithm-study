@@ -13,9 +13,9 @@ public class N9663_2 {
 	}
 
 	/*
-	 * check_col = i ¹ø ¿­¿¡ Äı ÀÌ ³õ¿© ÀÖÀ¸¸é true
-	 * check_dig = /´ë°¢¼±¿¡ ÄıÀÌ ÀÖÀ¸¸é true row + col
-	 * check_dig2 = \´ë°¢¼±¿¡ ÄıÀÌ ÀÖÀ¸¸é true row - col + (n - 1)
+	 * check_col = i ë²ˆ ì—´ì— í€¸ ì´ ë†“ì—¬ ìˆìœ¼ë©´ true
+	 * check_dig = /ëŒ€ê°ì„ ì— í€¸ì´ ìˆìœ¼ë©´ true row + col
+	 * check_dig2 = \ëŒ€ê°ì„ ì— í€¸ì´ ìˆìœ¼ë©´ true row - col + (n - 1)
 	 */
 	private static int calc(final int n, boolean[][] a, boolean[] checkCol, boolean[] checkDig1, boolean[] checkDig2, int row) {
 		if (row == n) {

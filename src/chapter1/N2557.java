@@ -1,7 +1,7 @@
 package chapter1;
 
 /* 
- * Hello World!¸¦ Ãâ·ÂÇÏ½Ã¿À.
+ * Hello World!ë¥¼ ì¶œë ¥í•˜ì‹œì˜¤.
  */
 public class N2557 {
 	public static void main(String[] args) {

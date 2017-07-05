@@ -3,7 +3,7 @@ package chapter1;
 import java.util.Scanner;
 
 /*
- * ¿À´ÃÀº 2007³â 1¿ù 1ÀÏ ¿ù¿äÀÏÀÌ´Ù. ±×·¸´Ù¸é 2007³â x¿ù yÀÏÀº ¹«½¼ ¿äÀÏÀÏ±î? ÀÌ¸¦ ¾Ë¾Æ³»´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+ * ì˜¤ëŠ˜ì€ 2007ë…„ 1ì›” 1ì¼ ì›”ìš”ì¼ì´ë‹¤. ê·¸ë ‡ë‹¤ë©´ 2007ë…„ xì›” yì¼ì€ ë¬´ìŠ¨ ìš”ì¼ì¼ê¹Œ? ì´ë¥¼ ì•Œì•„ë‚´ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤.
  */
 public class N1924 {
 	enum DAY {

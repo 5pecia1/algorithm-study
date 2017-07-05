@@ -3,8 +3,8 @@ package chapter2;
 import java.util.Scanner;
 
 /*
- * N-Queen ¹®Á¦´Â Å©±â°¡ N ¡¿ NÀÎ Ã¼½ºÆÇ À§¿¡ Äı N°³¸¦ ¼­·Î °ø°İÇÒ ¼ö ¾ø°Ô ³õ´Â ¹®Á¦ÀÌ´Ù.
- * NÀÌ ÁÖ¾îÁ³À» ¶§, ÄıÀ» ³õ´Â ¹æ¹ıÀÇ ¼ö¸¦ ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+ * N-Queen ë¬¸ì œëŠ” í¬ê¸°ê°€ N Ã— Nì¸ ì²´ìŠ¤íŒ ìœ„ì— í€¸ Nê°œë¥¼ ì„œë¡œ ê³µê²©í•  ìˆ˜ ì—†ê²Œ ë†“ëŠ” ë¬¸ì œì´ë‹¤.
+ * Nì´ ì£¼ì–´ì¡Œì„ ë•Œ, í€¸ì„ ë†“ëŠ” ë°©ë²•ì˜ ìˆ˜ë¥¼ êµ¬í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì‹œì˜¤.
  *  => n^n^2
  */
 public class N9663 {
@@ -38,7 +38,7 @@ public class N9663 {
 	}
 
 	private static boolean check(final int n, final boolean[][] a, int row, int col) {
-		// ¼öÁ÷
+		// ìˆ˜ì§
 		for (int i = 0; i < n; i++) {
 			if (i == row) {
 				continue;
@@ -48,7 +48,7 @@ public class N9663 {
 			}
 		}
 	
-		// ¿ŞÂÊ ¾Æ·¡
+		// ì™¼ìª½ ì•„ë˜
 		int x = row - 1;
 		int y = col - 1;
 		
@@ -60,7 +60,7 @@ public class N9663 {
 			y--;
 		}
 		
-		// ¿ŞÂÊ À§
+		// ì™¼ìª½ ìœ„
 		x = row - 1;
 		y = col + 1;
 		while(x >= 0 && y < n) {

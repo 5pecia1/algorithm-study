@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /*
- * N°³ÀÇ Á¤¼ö·Î ÀÌ·ç¾îÁø ¹è¿­ A°¡ ÁÖ¾îÁø´Ù. ÀÌ ¶§, ¹è¿­¿¡ µé¾îÀÖ´Â Á¤¼öÀÇ ¼ø¼­¸¦ ÀûÀýÈ÷ ¹Ù²ã¼­ ´ÙÀ½ ½ÄÀÇ ÃÖ´ë°ªÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+ * Nê°œì˜ ì •ìˆ˜ë¡œ ì´ë£¨ì–´ì§„ ë°°ì—´ Aê°€ ì£¼ì–´ì§„ë‹¤. ì´ ë•Œ, ë°°ì—´ì— ë“¤ì–´ìžˆëŠ” ì •ìˆ˜ì˜ ìˆœì„œë¥¼ ì ì ˆížˆ ë°”ê¿”ì„œ ë‹¤ìŒ ì‹ì˜ ìµœëŒ€ê°’ì„ êµ¬í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤.
  * |A[0] - A[1]| + |A[1] - A[2]| + ... + |A[N-2] - A[N-1]|
  */
 public class N10819 {
@@ -42,7 +42,7 @@ public class N10819 {
 			i -= 1;
 		}
 		if (i <= 0) {
-			return false; // ¸¶Áö¸· ¼ø¿­
+			return false; // ë§ˆì§€ë§‰ ìˆœì—´
 		}
 		int j = a.length - 1;
 		while (a[j] <= a[i - 1]) {

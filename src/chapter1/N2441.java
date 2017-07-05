@@ -3,8 +3,8 @@ package chapter1;
 import java.util.Scanner;
 
 /*
- * Ã¹Â° ÁÙ¿¡´Â º° N°³, µÑÂ° ÁÙ¿¡´Â º° N-1°³, ..., N¹øÂ° ÁÙ¿¡´Â º° 1°³¸¦ Âï´Â ¹®Á¦
- * ÇÏÁö¸¸, ¿À¸¥ÂÊÀ» ±âÁØÀ¸·Î Á¤·ÄÇÑ º° (¿¹Á¦ Âü°í)À» Ãâ·ÂÇÏ½Ã¿À.
+ * ì²«ì§¸ ì¤„ì—ëŠ” ë³„ Nê°œ, ë‘˜ì§¸ ì¤„ì—ëŠ” ë³„ N-1ê°œ, ..., Në²ˆì§¸ ì¤„ì—ëŠ” ë³„ 1ê°œë¥¼ ì°ëŠ” ë¬¸ì œ
+ * í•˜ì§€ë§Œ, ì˜¤ë¥¸ìª½ì„ ê¸°ì¤€ìœ¼ë¡œ ì •ë ¬í•œ ë³„ (ì˜ˆì œ ì°¸ê³ )ì„ ì¶œë ¥í•˜ì‹œì˜¤.
  */
 public class N2441 {
 	public static void main(String[] args) {

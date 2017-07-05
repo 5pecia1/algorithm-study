@@ -7,9 +7,9 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 /*
- * 1ºÎÅÍ N±îÁöÀÇ ¼ö·Î ÀÌ·ç¾îÁø ¼ø¿­ÀÌ ÀÖ´Ù. ÀÌ ¶§, »çÀü¼øÀ¸·Î ¹Ù·Î ÀÌÀü¿¡ ¿À´Â ¼ø¿­À» ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
- * »çÀü ¼øÀ¸·Î °¡Àå ¾Õ¼­´Â ¼ø¿­Àº ¿À¸§Â÷¼øÀ¸·Î ÀÌ·ç¾îÁø ¼ø¿­ÀÌ°í, °¡Àå ¸¶Áö¸·¿¡ ¿À´Â ¼ø¿­Àº ³»¸²Â÷¼øÀ¸·Î ÀÌ·ç¾îÁø ¼ø¿­ÀÌ´Ù.
- * N = 3ÀÎ °æ¿ì¿¡ »çÀü¼øÀ¸·Î ¼ø¿­À» ³ª¿­ÇÏ¸é ´ÙÀ½°ú °°´Ù.
+ * 1ë¶€í„° Nê¹Œì§€ì˜ ìˆ˜ë¡œ ì´ë£¨ì–´ì§„ ìˆœì—´ì´ ìžˆë‹¤. ì´ ë•Œ, ì‚¬ì „ìˆœìœ¼ë¡œ ë°”ë¡œ ì´ì „ì— ì˜¤ëŠ” ìˆœì—´ì„ êµ¬í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤.
+ * ì‚¬ì „ ìˆœìœ¼ë¡œ ê°€ìž¥ ì•žì„œëŠ” ìˆœì—´ì€ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì´ë£¨ì–´ì§„ ìˆœì—´ì´ê³ , ê°€ìž¥ ë§ˆì§€ë§‰ì— ì˜¤ëŠ” ìˆœì—´ì€ ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œ ì´ë£¨ì–´ì§„ ìˆœì—´ì´ë‹¤.
+ * N = 3ì¸ ê²½ìš°ì— ì‚¬ì „ìˆœìœ¼ë¡œ ìˆœì—´ì„ ë‚˜ì—´í•˜ë©´ ë‹¤ìŒê³¼ ê°™ë‹¤.
  * 1, 2, 3
  * 1, 3, 2
  * 2, 1, 3
@@ -48,7 +48,7 @@ public class N10973 {
 			i -= 1;
 		}
 		if (i <= 0) {
-			return false; // ¸¶Áö¸· ¼ø¿­
+			return false; // ë§ˆì§€ë§‰ ìˆœì—´
 		}
 		int j = a.length - 1;
 		while (a[j] >= a[i - 1]) {

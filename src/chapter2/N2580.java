@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /*
- * ½ºµµÄí
- * ÃâÃ³ : https://gist.github.com/Baekjoon/687e776019684b5aca54
+ * ìŠ¤ë„ì¿ 
+ * ì¶œì²˜ : https://gist.github.com/Baekjoon/687e776019684b5aca54
  */
 public class N2580 {
 	

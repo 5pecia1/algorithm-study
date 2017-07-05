@@ -3,7 +3,7 @@ package chapter1;
 import java.util.Scanner;
 
 /*
- * ¿¹Á¦¸¦ º¸°í º°Âï´Â ±ÔÄ¢À» À¯ÃßÇÑ µÚ¿¡ º°À» Âï¾î º¸¼¼¿ä.
+ * ì˜ˆì œë¥¼ ë³´ê³  ë³„ì°ëŠ” ê·œì¹™ì„ ìœ ì¶”í•œ ë’¤ì— ë³„ì„ ì°ì–´ ë³´ì„¸ìš”.
  */
 public class N10991 {
 	public static void main(String[] args) {
