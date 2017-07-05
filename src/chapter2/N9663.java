@@ -13,7 +13,7 @@ public class N9663 {
 		Scanner scanner = new Scanner(System.in);
 		
 		int n = scanner.nextInt();
-		
+	
 		System.out.println(calc(n, new boolean[n][n], 0));
 	}
 	
